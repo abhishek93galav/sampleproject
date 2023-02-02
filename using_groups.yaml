@@ -1,0 +1,7 @@
+---
+- name: demo playbook
+  hosts: dbserver
+  tasks:
+          - ansible.builtin.debug:
+                  msg: hello there
+  
